@@ -10,6 +10,7 @@ Pour l'examen d'Antoine Courtin
 <iframe src="https://data.opendatasoft.com/explore/embed/dataset/arbresremarquablesparis@parisdata/table/?&static=false&datasetcard=false" width="800" height="300" frameborder="0"></iframe> 
 
 
-<iframe src="https://data.opendatasoft.com/chart/embed/les_genres_darbres_a_paris/?&static=false&datasetcard=false" width="400" height="300" frameborder="0"></iframe>
+<iframe src="https://data.opendatasoft.com/chart/embed/les_genres_darbres_a_paris/?&static=false&datasetcard=false" width="800" height="600" frameborder="0"></iframe>
 
 <div class="flourish-embed flourish-hierarchy" data-src="visualisation/5126605"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
