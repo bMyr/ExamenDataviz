@@ -1,4 +1,4 @@
-# Analyse des données et Datavisualisation TEST
+# Analyse des données et Datavisualisation
 Pour l'examen d'Antoine Courtin
 
 ## Jeu de données n°1 : Les arbres, Paris Data
@@ -12,8 +12,5 @@ Pour l'examen d'Antoine Courtin
 
 <iframe src="https://data.opendatasoft.com/chart/embed/les_genres_darbres_a_paris/?&static=false&datasetcard=false" width="800" height="600" frameborder="0"></iframe>
 
-
-
-<div class="flourish-embed flourish-hierarchy" data-src="visualisation/5126605"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 <div class="flourish-embed flourish-hierarchy" data-src="visualisation/5126605"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
