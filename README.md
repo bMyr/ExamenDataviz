@@ -28,7 +28,7 @@ A. Camembert de la répartitation des genres d'arbres à Paris
 Source visualisation : Flourish
 
 
-B. Camembert de la répartitation des genres d'arbres à Paris
+B. Année de plantation des arbres remarquables de Paris 
 
 <iframe src="https://data.opendatasoft.com/chart/embed/?dataChart=eyJxdWVyaWVzIjpbeyJjaGFydHMiOlt7ImFsaWduTW9udGgiOnRydWUsInR5cGUiOiJiYXIiLCJmdW5jIjoiQ09VTlQiLCJ5QXhpcyI6ImlkYmFzZSIsInNjaWVudGlmaWNEaXNwbGF5Ijp0cnVlLCJjb2xvciI6IiMxOTYzMEEiLCJwb3NpdGlvbiI6ImNlbnRlciIsImRpc3BsYXlWYWx1ZXMiOnRydWV9XSwieEF4aXMiOiJkYXRlcGxhbnRhdGlvbiIsIm1heHBvaW50cyI6MjAsInRpbWVzY2FsZSI6InllYXIiLCJzb3J0Ijoic2VyaWUxLTEiLCJjb25maWciOnsiZGF0YXNldCI6ImFyYnJlc3JlbWFycXVhYmxlc3BhcmlzQHBhcmlzZGF0YSIsIm9wdGlvbnMiOnsidGltZXpvbmUiOiJFdXJvcGUvQmVybGluIn19LCJzZXJpZXNCcmVha2Rvd24iOiIiLCJzZXJpZXNCcmVha2Rvd25UaW1lc2NhbGUiOiIifV0sImRpc3BsYXlMZWdlbmQiOnRydWUsImFsaWduTW9udGgiOnRydWUsInRpbWVzY2FsZSI6InllYXIifQ%3D%3D&static=false&datasetcard=false" width="800" height="600" frameborder="0"></iframe>
 
