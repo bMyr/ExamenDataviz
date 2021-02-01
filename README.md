@@ -134,5 +134,5 @@ Concernant le travail sur OpenRefine, il m'a été possible de copier/coller les
 <br/><br/>
 ![](https://zupimages.net/up/21/05/4fpz.jpg)
 <br/><br/>
-Toutefois les arbres concernés sont si peu nombreux que les datavisualisations ne s'en trouvent pas faussées.  
+Toutefois les deux espèces d'arbres concernées sont tellement minoritaires par rapport aux autres catégories que les datavisualisations ne semblent pas être faussées.
 
