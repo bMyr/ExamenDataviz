@@ -8,7 +8,7 @@ Pour l'examen d'Antoine Courtin
 <br/>
 
 Ce premier jeu de données relativement volumineux selectionné sur Opendatasoft contient 204 796 enregistrements. Il a été crée par la Direction des Espaces Verts et de l'Environnement de la Mairie de Paris.  
-Il s'agit d'un recensement de l’ensemble des arbres présents sur le territoire parisien et des cimetières extra-muros. 
+Il s'agit d'un recensement de l’ensemble des arbres présents sur le territoire parisien et des cimetières extra-muros.  
 Dans ce jeu de données sont renseignés les coordonnées géographiques, la mensuration, la classification et l'année de plantation des arbres.
 <br/><br/>
 
@@ -17,7 +17,7 @@ Dans ce jeu de données sont renseignés les coordonnées géographiques, la men
 <iframe src="https://data.opendatasoft.com/explore/embed/dataset/arbresremarquablesparis@parisdata/table/?&static=false&datasetcard=false" width="800" height="300" frameborder="0"></iframe> 
 <br/>
 Le second jeu de données également selectionné sur Opendatasoft contient seulement 179 enregistrements et a été crée par la Direction des Espaces Verts et de l'Environnement de la Mairie de Paris. 
-Il s'agit dans une certaine mesure d'un 'extrait' du premier jeu de données dans la mesure où nous retrouvons ici tous les arbres du premier recensement pour lesquels la valeur du champ 'REMARQUABLE' était 'OUI'. Soit 179 arbres sur 204 796. 
+Il s'agit dans une certaine mesure d'un 'extrait' du premier jeu de données dans la mesure où nous retrouvons ici tous les arbres du premier recensement pour lesquels la valeur du champ 'REMARQUABLE' était 'OUI'. Soit 179 arbres sur 204 796.  
 Dans ce jeu de données sont donc aussi renseignés les coordonnées géographiques, la mensuration, la classification et l'année de plantation des arbres remarquables de Paris.
 <br/><br/>
 
@@ -121,3 +121,17 @@ Source visualisation : Opendatasoft
 
 
 <br/><br/>
+
+## 2. Explications
+
+Tout d'abord il peut sembler étonnant qu'aucune datavisuation de type Carte géographique n'ait été présentée ici malgré la présence des coordonnées géographiques dans les deux jeux de données. C'est tout simplement car ce format m'a semblé n'apporter aucune plus-value pour les deux jeux de données, contrairement au graphique sous forme de Colonne qui permet d'informer en un coup d'oeil de la répartition des arbres sur le sol Parisien. 
+
+Ensuite, il m'est nécessaire de préciser qu'il m'a été impossible de travailler avec le premier jeu de données (Les Arbres, ParisData) ailleurs que sur OpenDataSoft. À cause de sa taille volumineuse (ou peut-être de ma mauvaise connexion internet) je n'ai pu utiliser ni Rawgraphs, Flourish ou Datawrapper sans les faire 'crasher' au moment d'entrer le jeu de données, que ce soit en joignant le jeu en .csv ou simplement en l'ayant copié/collé.
+
+C'est pourquoi j'ai finalement réalisé les Datavisulations du premier jeu de données directement sur OpenDataSoft. 
+
+
+Concernant le travail sur OpenRefine, il m'a été possible de copier/coller les données, de les modifier, mais pas de les exporter. C'est dommage car quelques erreurs avaient pu être repérées, notamment grâce à la fonctionnalité Grouper et éditer : 
+
+Toutefois les arbres concernés sont si peu nombreux que les datavisualisations ne s'en trouvent pas faussées.  
+
