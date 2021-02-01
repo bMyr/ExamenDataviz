@@ -29,7 +29,9 @@ A. Les espèces d'arbres à Paris
 Type de graphique: Camembert
 
 Source visualisation : Opendatasoft  
-<br/>
+<br/><br/>
+
+
 Cette première datavisualisation nous permet de mettre en évidence les principales espèces d'arbres que l'on retrouve au sein de la capitale. 
 
 
@@ -63,8 +65,7 @@ B. Répartition géographique des Arbres de Paris
 Type de graphique: Colonne
 
 Source visualisation : Opendatasoft
-
-
+<br/><br/>
 
 
 ## 2. Les arbres remarquables de Paris
@@ -93,7 +94,7 @@ RESULTAT:
 <iframe style="width: 80vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#select%20distinct%20%3Fitem%20%3FitemLabel%20%3Fimg%0Awhere%20%7B%0A%20%0A%20%20%3Fitem%20wdt%3AP31%20wd%3AQ811534%20.%0A%20%20%3Fitem%20wdt%3AP17%20wd%3AQ142%20.%0A%20%20%3Fitem%20wdt%3AP18%20%3Fimg%20.%20%0A%20%20%20%20SERVICE%20wikibase%3Alabel%20%7B%0A%20%20%20%20%20%20%20%20bd%3AserviceParam%20wikibase%3Alanguage%20%22fr%2Cen%22%20.%0A%20%20%20%20%7D%7D" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
 
 
-
+<br/><br/>
 B.  Répartition des Arbres remarquables de Paris selon le lieu et l'espèce
 
 <div class="flourish-embed flourish-hierarchy" data-src="visualisation/5126605"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
@@ -104,17 +105,16 @@ On apprend dans la rubrique 'Arbres' du site officiel de la ville de Paris que s
 Type de graphique: Treemap
 
 Source visualisation : Flourish
-
+<br/><br/>
 
 C. Année de plantation des arbres remarquables de Paris 
 
 <iframe src="https://data.opendatasoft.com/chart/embed/?dataChart=eyJxdWVyaWVzIjpbeyJjaGFydHMiOlt7InR5cGUiOiJsaW5lIiwiZnVuYyI6IkNPVU5UIiwieUF4aXMiOiJpZGJhc2UiLCJzY2llbnRpZmljRGlzcGxheSI6dHJ1ZSwiY29sb3IiOiIjMTk2MzBBIiwicG9zaXRpb24iOiJjZW50ZXIifV0sInhBeGlzIjoiZGF0ZXBsYW50YXRpb24iLCJtYXhwb2ludHMiOiIiLCJ0aW1lc2NhbGUiOiJ5ZWFyIiwic29ydCI6IiIsImNvbmZpZyI6eyJkYXRhc2V0IjoiYXJicmVzcmVtYXJxdWFibGVzcGFyaXNAcGFyaXNkYXRhIiwib3B0aW9ucyI6eyJ0aW1lem9uZSI6IkV1cm9wZS9CZXJsaW4ifX0sInNlcmllc0JyZWFrZG93biI6IiIsInNlcmllc0JyZWFrZG93blRpbWVzY2FsZSI6IiJ9XSwiZGlzcGxheUxlZ2VuZCI6dHJ1ZSwiYWxpZ25Nb250aCI6dHJ1ZSwidGltZXNjYWxlIjoieWVhciJ9&static=false&datasetcard=false" width="800" height="600" frameborder="0"></iframe>
 
 
-Nous 
-
-
-
 Type de graphique: Ligne
 
 Source visualisation : Opendatasoft
+
+
+<br/><br/>
