@@ -120,18 +120,18 @@ Type de graphique: Ligne
 
 Source visualisation : Opendatasoft
 
-<br/><br/>
+<br/>
 
 ## 2. Explications
 
-Tout d'abord il peut sembler étonnant qu'aucune datavisuation de type Carte géographique n'ait été présentée ici malgré la présence des coordonnées géographiques dans les deux jeux de données. C'est tout simplement car ce format m'a semblé n'apporter aucune plus-value pour les deux jeux de données, contrairement au graphique sous forme de Colonne qui permet d'informer en un coup d'oeil de la répartition des arbres sur le sol Parisien. 
+Tout d'abord il peut sembler étonnant qu'aucune datavisualisation de type carte géographique n'ait été présentée ici malgré la présence des coordonnées géographiques dans les deux jeux de données. C'est tout simplement car ce format m'a semblé n'apporter aucune plus-value pour les deux jeux de données, contrairement au graphique sous forme de colonne qui permet de mettre en évidence en un coup d'oeil la répartition des arbres sur le sol parisien. 
 
-Ensuite, il m'est nécessaire de préciser qu'il m'a été impossible de travailler avec le premier jeu de données (Les Arbres, ParisData) ailleurs que sur OpenDataSoft. À cause de sa taille volumineuse (ou peut-être de ma mauvaise connexion internet) je n'ai pu utiliser ni Rawgraphs, Flourish ou Datawrapper sans les faire 'crasher' au moment d'entrer le jeu de données, que ce soit en joignant le jeu en .csv ou simplement en l'ayant copié/collé.
+Ensuite, il m'est nécessaire de préciser qu'il m'a été impossible de travailler avec le premier jeu de données (Les Arbres, ParisData) ailleurs que sur OpenDataSoft. À cause de sa taille volumineuse (ou peut-être de ma mauvaise connexion internet) je n'ai pu utiliser ni Rawgraphs, Flourish ou Datawrapper sans les faire "crasher" au moment d'entrer le jeu de données, que ce soit en le joignant en .csv ou simplement en effectuant un copié/collé.
 
-C'est pourquoi j'ai finalement réalisé les Datavisulations du premier jeu de données directement sur OpenDataSoft. 
+C'est pourquoi j'ai finalement réalisé les datavisulations du premier jeu de données directement sur OpenDataSoft. 
 
 
-Concernant le travail sur OpenRefine, il m'a été possible de copier/coller les données, de les modifier, mais pas de les exporter car une page d'erreur s'affiche, ce qui n'arrive jamais avec un fichier plus léger. C'est dommage car quelques erreurs avaient pu être repérées, notamment grâce à la fonctionnalité Grouper et éditer : 
+Concernant le travail sur OpenRefine, il m'a été possible de copier/coller les données, de les modifier, mais pas de les exporter car une page d'erreur s'affichait, ce qui n'arrive jamais avec un fichier plus léger. C'est dommage car quelques erreurs avaient pu être repérées, notamment grâce à la fonctionnalité grouper et éditer : 
 <br/><br/>
 ![](https://zupimages.net/up/21/05/4fpz.jpg)
 <br/><br/>
