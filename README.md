@@ -39,7 +39,8 @@ Cette première datavisualisation nous permet de mettre en évidence les princip
 
 REQUETE WIKIDATA :
 
-''''SPARQL
+
+````SPARQL
 SELECT ?lemma ?item ?img
 WHERE {
   VALUES ?lemma {
@@ -52,7 +53,8 @@ WHERE {
     schema:name ?lemma.
     ?item wdt:P18 ?img.
 }
-''''
+````
+
 
 RESULTAT:
 
