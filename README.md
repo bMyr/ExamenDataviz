@@ -119,7 +119,6 @@ Type de graphique: Ligne
 
 Source visualisation : Opendatasoft
 
-
 <br/><br/>
 
 ## 2. Explications
