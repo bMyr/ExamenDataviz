@@ -1,5 +1,6 @@
 # Zoom sur les arbres de la Capitale
 Pour l'examen d'Antoine Courtin 
+<br/><br/>
 
 ## Jeu de données n°1 : Les arbres, Paris Data
 
@@ -9,6 +10,7 @@ Pour l'examen d'Antoine Courtin
 Ce premier jeu de données relativement volumineux selectionné sur Opendatasoft contient 204 796 enregistrements. Il a été crée par la Direction des Espaces Verts et de l'Environnement de la Mairie de Paris.  
 Il s'agit d'un recensement de l’ensemble des arbres présents sur le territoire parisien et des cimetières extra-muros. 
 Dans ce jeu de données sont renseignés les coordonnées géographiques, la mensuration, la classification et l'année de plantation des arbres.
+<br/><br/>
 
 ## Jeu de données n°2 : Les arbres remarquables, Paris Data
 
@@ -17,8 +19,7 @@ Dans ce jeu de données sont renseignés les coordonnées géographiques, la men
 Le second jeu de données également selectionné sur Opendatasoft contient seulement 179 enregistrements et a été crée par la Direction des Espaces Verts et de l'Environnement de la Mairie de Paris. 
 Il s'agit dans une certaine mesure d'un 'extrait' du premier jeu de données dans la mesure où nous retrouvons ici tous les arbres du premier recensement pour lesquels la valeur du champ 'REMARQUABLE' était 'OUI'. Soit 179 arbres sur 204 796. 
 Dans ce jeu de données sont donc aussi renseignés les coordonnées géographiques, la mensuration, la classification et l'année de plantation des arbres remarquables de Paris.
-
-
+<br/><br/>
 
 ## 1. Les arbres de Paris
 
@@ -33,7 +34,7 @@ Source visualisation : Opendatasoft
 
 
 Cette première datavisualisation nous permet de mettre en évidence les principales espèces d'arbres que l'on retrouve au sein de la capitale. 
-
+<br/>
 
 REQUETE :
 
@@ -56,7 +57,7 @@ WHERE {
 RESULTAT:
 
 <iframe style="width: 80vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#%23%C3%89l%C3%A9ments%20Wikidata%20d%E2%80%99articles%20Wikip%C3%A9dia%0A%23Returns%20a%20list%20of%20Wikidata%20items%20for%20a%20given%20list%20of%20Wikipedia%20article%20names%0A%23List%20of%20Wikipedia%20article%20names%20(lemma)%20is%20like%20%22WIKIPEDIA%20ARTICLE%20NAME%22%40LANGUAGE%20CODE%20with%20de%20for%20German%2C%20en%20for%20English%2C%20etc.%0A%23Language%20version%20and%20project%20is%20defined%20in%20schema%3AisPartOF%20with%20de.wikipedia.org%20for%20German%20Wikipedia%2C%20es.wikivoyage%20for%20Spanish%20Wikivoyage%2C%20etc.%0A%0ASELECT%20%3Flemma%20%3Fitem%20%3Fimg%0AWHERE%20%7B%0A%20%20VALUES%20%3Flemma%20%7B%0A%20%20%20%20%22Platanus%22%40en%0A%20%20%20%20%22Aesculus%22%40en%0A%20%20%20%20%22Tilia%22%40en%0A%20%20%7D%0A%20%20%20%0A%20%20%3Fsitelink%20schema%3Aabout%20%3Fitem%3B%0A%20%20%20%20schema%3AisPartOf%20%3Chttps%3A%2F%2Fen.wikipedia.org%2F%3E%3B%0A%20%20%20%20schema%3Aname%20%3Flemma.%0A%20%20%20%20%3Fitem%20wdt%3AP18%20%3Fimg.%0A%0A%7D" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
-
+<br/><br/>
 
 B. Répartition géographique des Arbres de Paris
 
