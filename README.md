@@ -28,9 +28,7 @@ A. Les espèces d'arbres à Paris
 
 Type de graphique: Camembert
 
-Source visualisation : Opendatasoft
-
-
+Source visualisation : Opendatasoft  
 
 Cette première datavisualisation nous permet de mettre en évidence les principales espèces d'arbres que l'on retrouve au sein de la capitale.
 
