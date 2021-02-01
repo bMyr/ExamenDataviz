@@ -14,10 +14,7 @@ Dans ce jeu de données sont renseignés les coordonnées géographiques, la men
 
 <iframe src="https://data.opendatasoft.com/explore/embed/dataset/arbresremarquablesparis@parisdata/table/?&static=false&datasetcard=false" width="800" height="300" frameborder="0"></iframe> 
 
-
-Tout d'abord il faut savoir qu'un arbre est dit remarquable lorsqu'on le remarque ! Il peut se distinguer par ses mensurations, son aspect, son identité ou encore son âge.
-
-Ainsi, le second jeu de données également selectionné sur Opendatasoft contient seulement 179 enregistrements et a été crée par la Direction des Espaces Verts et de l'Environnement de la Mairie de Paris. 
+Le second jeu de données également selectionné sur Opendatasoft contient seulement 179 enregistrements et a été crée par la Direction des Espaces Verts et de l'Environnement de la Mairie de Paris. 
 Il s'agit dans une certaine mesure d'un 'extrait' du premier jeu de données dans la mesure où nous retrouvons ici tous les arbres du premier recensement pour lesquels la valeur du champ 'REMARQUABLE' était 'OUI'. Soit 179 arbres sur 204 796. 
 Dans ce jeu de données sont donc aussi renseignés les coordonnées géographiques, la mensuration, la classification et l'année de plantation des arbres remarquables de Paris.
 
@@ -37,7 +34,7 @@ Source visualisation : Opendatasoft
 
 Cette première datavisualisation nous permet de mettre en évidence les principales espèces d'arbres que l'on retrouve au sein de la capitale.
 
-REQUETE WIKIDATA :
+REQUETE :
 
 ````sparql
 SELECT ?lemma ?item ?img
@@ -73,7 +70,32 @@ Source visualisation : Opendatasoft
 
 ## 2. Les arbres remarquables de Paris
 
-A.  Répartition des Arbres remarquables de Paris selon le lieu et l'espèce
+
+A.  Qu'est ce qu'un arbre remarquable ?
+
+Tout d'abord il faut savoir qu'un arbre est dit remarquable lorsqu'on le remarque ! Il peut se distinguer par ses mensurations, son aspect, son identité ou encore son âge.
+
+Cette requete Wikidata nous permet de visualiser plusieurs Arbres remarquables du territoire français.
+
+
+REQUETE :
+
+````sparql
+select distinct ?item ?itemLabel ?img
+where {
+  ?item wdt:P31 wd:Q811534 .
+  ?item wdt:P17 wd:Q142 .
+  ?item wdt:P18 ?img . 
+    SERVICE wikibase:label {
+        bd:serviceParam wikibase:language "fr,en" .
+    }}
+````
+RESULTAT:
+<iframe style="width: 80vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#select%20distinct%20%3Fitem%20%3FitemLabel%20%3Fimg%0Awhere%20%7B%0A%20%0A%20%20%3Fitem%20wdt%3AP31%20wd%3AQ811534%20.%0A%20%20%3Fitem%20wdt%3AP17%20wd%3AQ142%20.%0A%20%20%3Fitem%20wdt%3AP18%20%3Fimg%20.%20%0A%20%20%20%20SERVICE%20wikibase%3Alabel%20%7B%0A%20%20%20%20%20%20%20%20bd%3AserviceParam%20wikibase%3Alanguage%20%22fr%2Cen%22%20.%0A%20%20%20%20%7D%7D" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
+
+
+
+B.  Répartition des Arbres remarquables de Paris selon le lieu et l'espèce
 
 <div class="flourish-embed flourish-hierarchy" data-src="visualisation/5126605"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
@@ -85,7 +107,7 @@ Type de graphique: Treemap
 Source visualisation : Flourish
 
 
-B. Année de plantation des arbres remarquables de Paris 
+C. Année de plantation des arbres remarquables de Paris 
 
 <iframe src="https://data.opendatasoft.com/chart/embed/?dataChart=eyJxdWVyaWVzIjpbeyJjaGFydHMiOlt7InR5cGUiOiJsaW5lIiwiZnVuYyI6IkNPVU5UIiwieUF4aXMiOiJpZGJhc2UiLCJzY2llbnRpZmljRGlzcGxheSI6dHJ1ZSwiY29sb3IiOiIjMTk2MzBBIiwicG9zaXRpb24iOiJjZW50ZXIifV0sInhBeGlzIjoiZGF0ZXBsYW50YXRpb24iLCJtYXhwb2ludHMiOiIiLCJ0aW1lc2NhbGUiOiJ5ZWFyIiwic29ydCI6IiIsImNvbmZpZyI6eyJkYXRhc2V0IjoiYXJicmVzcmVtYXJxdWFibGVzcGFyaXNAcGFyaXNkYXRhIiwib3B0aW9ucyI6eyJ0aW1lem9uZSI6IkV1cm9wZS9CZXJsaW4ifX0sInNlcmllc0JyZWFrZG93biI6IiIsInNlcmllc0JyZWFrZG93blRpbWVzY2FsZSI6IiJ9XSwiZGlzcGxheUxlZ2VuZCI6dHJ1ZSwiYWxpZ25Nb250aCI6dHJ1ZSwidGltZXNjYWxlIjoieWVhciJ9&static=false&datasetcard=false" width="800" height="600" frameborder="0"></iframe>
 
