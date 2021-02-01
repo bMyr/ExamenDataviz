@@ -132,8 +132,8 @@ C'est pourquoi j'ai finalement réalisé les Datavisulations du premier jeu de d
 
 
 Concernant le travail sur OpenRefine, il m'a été possible de copier/coller les données, de les modifier, mais pas de les exporter. C'est dommage car quelques erreurs avaient pu être repérées, notamment grâce à la fonctionnalité Grouper et éditer : 
-
+<br/>
 ![](https://zupimages.net/up/21/05/4fpz.jpg)
-
+<br/>
 Toutefois les arbres concernés sont si peu nombreux que les datavisualisations ne s'en trouvent pas faussées.  
 
