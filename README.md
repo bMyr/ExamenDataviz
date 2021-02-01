@@ -39,8 +39,7 @@ Cette première datavisualisation nous permet de mettre en évidence les princip
 
 REQUETE WIKIDATA :
 
-
-````SPARQL
+````sparql
 SELECT ?lemma ?item ?img
 WHERE {
   VALUES ?lemma {
