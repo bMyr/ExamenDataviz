@@ -37,7 +37,24 @@ Source visualisation : Opendatasoft
 
 Cette première datavisualisation nous permet de mettre en évidence les principales espèces d'arbres que l'on retrouve au sein de la capitale.
 
-REQUETE :
+REQUETE WIKIDATA :
+
+''''SPARQL
+SELECT ?lemma ?item ?img
+WHERE {
+  VALUES ?lemma {
+    "Platanus"@en
+    "Aesculus"@en
+    "Tilia"@en
+  }
+  ?sitelink schema:about ?item;
+    schema:isPartOf <https://en.wikipedia.org/>;
+    schema:name ?lemma.
+    ?item wdt:P18 ?img.
+}
+''''
+
+RESULTAT:
 
 <iframe style="width: 80vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#%23%C3%89l%C3%A9ments%20Wikidata%20d%E2%80%99articles%20Wikip%C3%A9dia%0A%23Returns%20a%20list%20of%20Wikidata%20items%20for%20a%20given%20list%20of%20Wikipedia%20article%20names%0A%23List%20of%20Wikipedia%20article%20names%20(lemma)%20is%20like%20%22WIKIPEDIA%20ARTICLE%20NAME%22%40LANGUAGE%20CODE%20with%20de%20for%20German%2C%20en%20for%20English%2C%20etc.%0A%23Language%20version%20and%20project%20is%20defined%20in%20schema%3AisPartOF%20with%20de.wikipedia.org%20for%20German%20Wikipedia%2C%20es.wikivoyage%20for%20Spanish%20Wikivoyage%2C%20etc.%0A%0ASELECT%20%3Flemma%20%3Fitem%20%3Fimg%0AWHERE%20%7B%0A%20%20VALUES%20%3Flemma%20%7B%0A%20%20%20%20%22Platanus%22%40en%0A%20%20%20%20%22Aesculus%22%40en%0A%20%20%20%20%22Tilia%22%40en%0A%20%20%7D%0A%20%20%20%0A%20%20%3Fsitelink%20schema%3Aabout%20%3Fitem%3B%0A%20%20%20%20schema%3AisPartOf%20%3Chttps%3A%2F%2Fen.wikipedia.org%2F%3E%3B%0A%20%20%20%20schema%3Aname%20%3Flemma.%0A%20%20%20%20%3Fitem%20wdt%3AP18%20%3Fimg.%0A%0A%7D" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
 
