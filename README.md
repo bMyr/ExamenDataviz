@@ -53,7 +53,9 @@ Source de la datavisualisation : Opendatasoft
 
 
 Cette première datavisualisation nous permet de mettre en évidence les principales espèces d'arbres que l'on retrouve au sein de la capitale. 
-<br/>
+L'utilisation des couleurs n'est pas légendée car elle est simplement à visée esthétique.
+
+<br/> 
 Nous avons ensuite créé cette reqûete Wikidata permettant d'afficher quelques photos des trois principales espèces d'arbres parisiens.
 <br/><br/>
 **Requête :**
@@ -128,13 +130,15 @@ where {
 ### B.  Répartition des arbres remarquables de Paris selon le lieu et l'espèce  <a id="som3b"></a>
 
 <div class="flourish-embed flourish-hierarchy" data-src="visualisation/5126605"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-
-
-On apprend dans la rubrique "Arbres" du site officiel de la ville de Paris que si les platanes, les hêtres et les marronniers sont les plus représentés parmi les arbres remarquables, c'est à cause de leur longévité et de leur port impressionnant.
-
 Type de graphique: Treemap
 
 Source de la datavisualisation : Flourish
+<br/><br/>
+
+On apprend dans la rubrique "Arbres" du site officiel de la ville de Paris que si les platanes, les hêtres et les marronniers sont les plus représentés parmi les arbres remarquables, c'est à cause de leur longévité et de leur port impressionnant.
+Ici également l'utilisation des couleurs n'est pas légendée car elle est simplement à visée esthétique.
+
+
 <br/><br/>
 
 ### C. Année de plantation des arbres remarquables de Paris  <a id="som3c"></a>
@@ -146,7 +150,12 @@ Type de graphique: Ligne
 
 Source de la datavisualisation : Opendatasoft
 
-<br/>
+<br/><br/>
+
+Ce graphique particulièrement parlant nous apprends que la majorité (107 sur 179) des arbres remarquables parisiens ont été planté en 1700, soit il y a plus de 300 ans !
+
+Une donnée saute aux yeux, le seul arbre planté en 1602 : Une rapide recherche nous apprends qu'il s'agit du Robinier du square René-Viviani, qui du haut de ses 420 ans est le plus vieil arbre de la ville de Paris. 
+
 
 ## 4. Conclusion <a id="som4"></a>
 
@@ -163,4 +172,7 @@ Concernant le travail sur OpenRefine, il m'a été possible de copier/coller les
 <br/><br/>
 Toutefois les deux espèces d'arbres concernées sont tellement minoritaires par rapport aux autres catégories que les datavisualisations ne semblent pas être faussées.
 
+Pour terminer, je remercie Antoine Courtin pour son enseignement, j'ai trouvé ce projet fortement enrichissant dans la mesure où l'on réalise, par le fait d'en avoir crée plus d'une, qu'une datavisualisation n'est pas suffisante pour s'informer d'un sujet. Il faut aller au-delà, se renseigner sur les données utilisées, le graphique choisi, le contexte général, l'auteur de la réalisation, ect...  De plus, être capable de transformer soi-même un jeu de données indigeste en une Datavisualisation pertinente et esthétique est particulièrement satisfaisant. 
 
+Merci, 
+Myriam B.
