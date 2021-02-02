@@ -1,5 +1,5 @@
 # Zoom sur les arbres de la Capitale
-![](https://cdn.pixabay.com/photo/2015/08/10/13/51/paris-882702_1280.jpg)
+![](https://cdn.pixabay.com/photo/2017/01/22/19/52/eiffel-tower-2000717_1280.jpg)
 Source: Pixabay
 
 ## Sommaire:
@@ -15,7 +15,7 @@ Source: Pixabay
   * [Qu'est ce qu'un arbre remarquable ? ](#som3a)
   * [Répartition des arbres remarquables de Paris selon le lieu et l'espèce](#som3b)
   * [Année de plantation des arbres remarquables de Paris](#som3c)
-* [Explications](#som4)
+* [Conclusion](#som4)
 
 
 
@@ -140,7 +140,7 @@ Source visualisation : Opendatasoft
 
 <br/>
 
-## 4. Explications <a id="som4"></a>
+## 4. Conclusion <a id="som4"></a>
 
 Tout d'abord il peut sembler étonnant qu'aucune datavisualisation de type carte géographique n'ait été présentée ici malgré la présence des coordonnées géographiques dans les deux jeux de données. C'est tout simplement car ce format m'a semblé n'apporter aucune plus-value pour les deux jeux de données, contrairement au graphique sous forme de colonne qui permet de mettre en évidence en un coup d'oeil la répartition des arbres sur le sol parisien. 
 
