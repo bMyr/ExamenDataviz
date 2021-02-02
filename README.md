@@ -2,8 +2,8 @@
 Pour l'examen d'Antoine Courtin 
 <br/><br/>
 
-
-en markdown: lien : [lien afficher](#nomAncre)
+**Sommaire:**
+[Jeux de données](#som1)
 
 
 ## Jeu de données n°1 : Les arbres, Paris Data
@@ -141,4 +141,4 @@ Concernant le travail sur OpenRefine, il m'a été possible de copier/coller les
 <br/><br/>
 Toutefois les deux espèces d'arbres concernées sont tellement minoritaires par rapport aux autres catégories que les datavisualisations ne semblent pas être faussées.
 
-titre: ##Titre <a id="nomAncre"></a>
+##1. Jeux de données <a id="som1"></a>
