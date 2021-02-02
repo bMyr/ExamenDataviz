@@ -175,4 +175,5 @@ Toutefois les deux espèces d'arbres concernées sont tellement minoritaires par
 Pour terminer, je remercie Antoine Courtin pour son enseignement, j'ai trouvé ce projet fortement enrichissant dans la mesure où l'on réalise, par le fait d'en avoir crée plus d'une, qu'une datavisualisation n'est pas suffisante pour s'informer d'un sujet. Il faut aller au-delà, se renseigner sur les données utilisées, le graphique choisi, le contexte général, l'auteur de la réalisation, ect...  De plus, être capable de transformer soi-même un jeu de données indigeste en une Datavisualisation pertinente et esthétique est particulièrement satisfaisant. 
 
 Merci, 
+
 Myriam B.
