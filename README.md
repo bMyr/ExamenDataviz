@@ -48,7 +48,7 @@ Dans ce jeu de données sont donc aussi renseignées les coordonnées géographi
 
 Type de graphique: Camembert
 
-Source visualisation : Opendatasoft  
+Source de la datavisualisation : Opendatasoft  
 <br/><br/>
 
 
@@ -85,11 +85,11 @@ WHERE {
 
 Type de graphique: Colonne
 
-Source visualisation : Opendatasoft
+Source de la datavisualisation : Opendatasoft
 <br/><br/>
 
 
-Ce graphique à colonnes réalisé sur Opendatasoft nous laisse penser que la majorité des arbres de la capitale se trouvent dans le 15ème, 13ème, 16ème et 20ème arrondissement. Ce qui est étonnant quand on voit que les Bois de Vincennes et de Boulogne sont bien présents sur le graphique.
+Ce graphique à colonnes réalisé sur Opendatasoft nous laisse penser que la majorité des arbres de la capitale se trouvent dans les 15ème, 13ème, 16ème et 20ème arrondissements. Ce qui est étonnant quand on voit que les Bois de Vincennes et de Boulogne sont bien présents sur le graphique.
 
 Une petite recherche sur le site officiel de la ville de Paris, dans la rubrique "Arbres" nous permet de confirmer cette incohérence, on y apprends en effet que : "La ville de Paris gère un patrimoine arboré d’environ 500 000 arbres, dont 300 000 dans les deux bois parisiens." (bois de Boulogne et de Vincennes.)
 
@@ -134,7 +134,7 @@ On apprend dans la rubrique "Arbres" du site officiel de la ville de Paris que s
 
 Type de graphique: Treemap
 
-Source visualisation : Flourish
+Source de la datavisualisation : Flourish
 <br/><br/>
 
 ### C. Année de plantation des arbres remarquables de Paris  <a id="som3c"></a>
@@ -144,7 +144,7 @@ Source visualisation : Flourish
 
 Type de graphique: Ligne
 
-Source visualisation : Opendatasoft
+Source de la datavisualisation : Opendatasoft
 
 <br/>
 
