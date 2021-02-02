@@ -1,6 +1,6 @@
 # Zoom sur les arbres de la Capitale
 ![](https://cdn.pixabay.com/photo/2017/01/22/19/52/eiffel-tower-2000717_1280.jpg)
-Source: Pixabay
+*Image libre de droit, Pixabay*
 
 ## Sommaire:
 
