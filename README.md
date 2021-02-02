@@ -53,8 +53,9 @@ Source visualisation : Opendatasoft
 
 
 Cette première datavisualisation nous permet de mettre en évidence les principales espèces d'arbres que l'on retrouve au sein de la capitale. 
+<br/>
+Nous avons ensuite créé cette reqûete Wikidata permettant d'afficher quelques photos des trois principales espèces d'arbres parisiens.
 <br/><br/>
-
 **Requête :**
 
 ````sparql
@@ -86,6 +87,13 @@ Type de graphique: Colonne
 
 Source visualisation : Opendatasoft
 <br/><br/>
+
+
+Ce graphique à colonnes réalisé sur Opendatasoft nous laisse penser que la majorité des arbres de la capitale se trouvent dans le 15ème, 13ème, 16ème et 20ème arrondissement. Ce qui est étonnant quand on voit que les Bois de Vincennes et de Boulogne sont bien présents sur le graphique.
+
+Une petite recherche sur le site officiel de la ville de Paris, dans la rubrique "Arbres" nous permet de confirmer cette incohérence, on y apprends en effet que : "La ville de Paris gère un patrimoine arboré d’environ 500 000 arbres, dont 300 000 dans les deux bois parisiens." (bois de Boulogne et de Vincennes.)
+
+Notre jeu ne contenant que 200 000 arbres, dont seulement 15 000 pour les deux bois parisiens, on peut supposer que le jeu de données est toujours en cours de développement. D'autant plus que dans la rubrique "Informations" du jeu sur Opendatasoft, on constate que le dernier traitement a été effectué tout récemment :  *"29 janvier 2021 10:39 (données)"*
 
 
 ## 3. Les arbres remarquables de Paris <a id="som3"></a>
