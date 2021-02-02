@@ -21,7 +21,7 @@
 
 ## 1. Jeux de données <a id="som1"></a>
 
-## A. Jeu de données n°1 : Les arbres, Paris Data <a id="som1a"></a>
+### A. Jeu de données n°1 : Les arbres, Paris Data <a id="som1a"></a>
 
 <iframe src="https://data.opendatasoft.com/explore/embed/dataset/les-arbres@parisdata/table/?disjunctive.typeemplacement&disjunctive.arrondissement&disjunctive.libellefrancais&disjunctive.genre&disjunctive.espece&disjunctive.varieteoucultivar&disjunctive.stadedeveloppement&disjunctive.remarquable&static=false&datasetcard=false" width="800" height="300" frameborder="0"></iframe>
 <br/>
@@ -31,7 +31,7 @@ Il s'agit d'un recensement de l’ensemble des arbres présents sur le territoir
 Dans ce jeu de données sont renseignées les coordonnées géographiques, la mensuration, la classification et l'année de plantation des arbres.
 <br/><br/>
 
-## B. Jeu de données n°2 : Les arbres remarquables, Paris Data <a id="som1b"></a>
+### B. Jeu de données n°2 : Les arbres remarquables, Paris Data <a id="som1b"></a>
 
 <iframe src="https://data.opendatasoft.com/explore/embed/dataset/arbresremarquablesparis@parisdata/table/?&static=false&datasetcard=false" width="800" height="300" frameborder="0"></iframe> 
 <br/>
