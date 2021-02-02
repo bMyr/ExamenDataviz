@@ -2,6 +2,10 @@
 Pour l'examen d'Antoine Courtin 
 <br/><br/>
 
+
+en markdown: lien : [lien afficher](#nomAncre)
+
+
 ## Jeu de données n°1 : Les arbres, Paris Data
 
 <iframe src="https://data.opendatasoft.com/explore/embed/dataset/les-arbres@parisdata/table/?disjunctive.typeemplacement&disjunctive.arrondissement&disjunctive.libellefrancais&disjunctive.genre&disjunctive.espece&disjunctive.varieteoucultivar&disjunctive.stadedeveloppement&disjunctive.remarquable&static=false&datasetcard=false" width="800" height="300" frameborder="0"></iframe>
@@ -137,3 +141,4 @@ Concernant le travail sur OpenRefine, il m'a été possible de copier/coller les
 <br/><br/>
 Toutefois les deux espèces d'arbres concernées sont tellement minoritaires par rapport aux autres catégories que les datavisualisations ne semblent pas être faussées.
 
+titre: ##Titre <a id="nomAncre"></a>
